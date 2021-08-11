@@ -8,4 +8,3 @@ function squareDigits(num){
     let int = Number(square.join(""))
     return int
 }
-console.log(squareDigits(9291))
