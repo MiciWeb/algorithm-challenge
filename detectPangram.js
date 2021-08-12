@@ -6,12 +6,9 @@ function isPangram(string){
     let alphabet = "abcdefghijklmnopqrstuvwxyz"
     let split = string.toLowerCase().replace(/ /g,'').split("")
     for (let i = 0; i < alphabet.length; i++) {
-        // console.log(alphabet.indexOf(split[i]))
-        // console.log(i)
-        if(alphabet.indexOf(alphabet[i] === split[alphabet.indexOf(split[i])])){
-             replace = alphabet.replace(string,"")
+        if(split.indexOf(alphabet[i]) === -1){
+            return false
         }
-        return alphabet.length === true
-    }
+     }
+     return true
 }
-console.log(isPangram("The quick brown fox jumps over the lazy dog"));
