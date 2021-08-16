@@ -7,4 +7,3 @@ function maskify(cc) {
     let replace = slice.replace(/[a-zA-Z0-9]/g, "#")
     return replace + cc.substr(-4)
 }
-console.log(maskify("le jean bon"))
