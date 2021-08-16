@@ -1,4 +1,4 @@
-// Complete the method/function so that it converts dash/underscore delimited words into camel casing.
+//Complete the method/function so that it converts dash/underscore delimited words into camel casing.
 //The first word within the output should be capitalized only if the original word was capitalized
 //(known as Upper Camel Case, also often referred to as Pascal case).
 
@@ -8,7 +8,7 @@ function toCamelCase(str) {
         split = str.split("-")
     } else if (str.includes("_")) {
         split = str.split("_")
-    }else{
+    } else {
         split = []
     }
     let camel;
@@ -19,4 +19,12 @@ function toCamelCase(str) {
         arr.push(camel)
     }
     return arr.join("")
-  }
+}
+
+//cleaner solution find in codewars.com
+function toCamelCase(str){
+    var regExp=/[-_]\w/ig;
+    return str.replace(regExp,function(match){
+          return match.charAt(1).toUpperCase();
+     });
+}
