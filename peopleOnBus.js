@@ -7,7 +7,6 @@
 // Please keep in mind that the test cases ensure that the number of people in the bus is always >= 0. So the return integer can't be negative.
 // The second value in the first integer array is 0, since the bus is empty in the first bus stop.
 var number = function (busStops) {
-    let count;
     let item1 = busStops.map(item => item[0])
     let item2 = busStops.map(item => item[1])
     let getIn = item1.reduce((a,b) => a + b)
