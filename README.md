@@ -3,4 +3,4 @@
 [![forthebadge](https://forthebadge.com/images/badges/contains-tasty-spaghetti-code.svg)](http://forthebadge.com)
 
 # js-algorithm-challenge
-Algorithm exercices and their solutions.
+Algorithm exercices and their solutions =)
