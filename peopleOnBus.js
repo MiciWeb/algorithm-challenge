@@ -13,4 +13,3 @@ var number = function (busStops) {
     let getOff = item2.reduce((a,b) => a + b)
     return getIn - getOff
 }
-console.log(number([[10, 0], [3, 5], [5, 8]]))
