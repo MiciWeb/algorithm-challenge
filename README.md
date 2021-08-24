@@ -3,4 +3,4 @@
 [![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](http://forthebadge.com)
 
 # js-algorithm-challenge
-Algorithm exercices (mostly found on [Code Wars](https://www.codewars.com/dashboard)) and My solutions =)
+JavaScript algorithms exercices (mostly found on [Code Wars](https://www.codewars.com/dashboard)) and my solutions =)
